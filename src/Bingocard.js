@@ -51,7 +51,7 @@ const Bingocard = props => {
   return (
     <div>
       <Typography variant="subheading" gutterBottom>
-        Choose from our awesome "Buzzwords" (aka Neo4j integrations)
+        Faites votre choix de "Buzzwords" et dites BINGO !
       </Typography>
       <Grid container spacing={24}>
         {buzzwords.map(o => (

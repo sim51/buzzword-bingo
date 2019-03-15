@@ -303,38 +303,6 @@ export const data = [
     tags: ["Import", "Streaming"]
   },
   {
-    title: "Linode",
-    description:
-      "Cloud hosting for developers. Use code 'GraphHack2018' for free access",
-    links: [
-      {
-        text: "Getting started",
-        url: "https://www.linode.com/docs/getting-started/"
-      },
-      {
-        text: "Docs",
-        url: "https://linode.com/docs/"
-      }
-    ],
-    tags: ["Hosting"]
-  },
-  {
-    title: "Graphistry",
-    description: "GPU Visual Analytics",
-    links: [
-      {
-        text: "Homepage",
-        url: "https://www.graphistry.com/"
-      },
-      {
-        text: "Twitter Trolls Example",
-        url:
-          "https://github.com/graphistry/pygraphistry/blob/master/demos/Neo4jTwitter.ipynb"
-      }
-    ],
-    tags: ["Visualization"]
-  },
-  {
     title: "NLP With GraphAware",
     description: "Natural language processing capabilities in Neo4j ",
     links: [
@@ -440,17 +408,6 @@ export const data = [
       {
         text: "Access here with user:password of reviews:letmein",
         url: "https://47b53882.databases.neo4j.io/browser/"
-      }
-    ],
-    tags: ["Dataset"]
-  },
-  {
-    title: "StackOverflow Dataset",
-    description: "StackOverflow imported into Neo4j.",
-    links: [
-      {
-        text: "Access heere with user:password of stackoverflow:stackoverflow",
-        url: "https://stackdata.neo4jlabs.com/browser/"
       }
     ],
     tags: ["Dataset"]
@@ -568,6 +525,61 @@ export const data = [
       }
     ],
     tags: ["Neo4j"]
+  },
+  {
+    title: "Open Data",
+    description: "Utiliser des données ouvertes !",
+    links: [
+      {
+        text: "Site opendata",
+        url: "https://data.gouv.fr"
+      }
+    ],
+    tags: ["Dataset"]
+  },
+  {
+    title: "Cypher pour Spark",
+    description: "Utiliser Spark avec Neo4j",
+    links: [
+      {
+        text: "Github",
+        url: "https://github.com/opencypher/cypher-for-apache-spark"
+      }
+    ],
+    tags: ["Neo4j"]
+  },
+  {
+    title: "SigmaJS",
+    description: "Faite un joli graph avec Sigma",
+    links: [
+      {
+        text: "Site web",
+        url: "https://sigmajs.org"
+      }
+    ],
+    tags: ["Dataset"]
+  },
+  {
+    title: "SigmaJS",
+    description: "Faite un joli graph avec Sigma",
+    links: [
+      {
+        text: "Site web",
+        url: "https://sigmajs.org"
+      }
+    ],
+    tags: ["Visualization", "JavaScript"]
+  },
+  {
+    title: "Gephi",
+    description: "Faite un joli graph avec Gephi",
+    links: [
+      {
+        text: "Site web",
+        url: "The Open Graph Viz Platform"
+      }
+    ],
+    tags: ["Visualization", "JavaScript"]
   },
   {
     title: "??????",
